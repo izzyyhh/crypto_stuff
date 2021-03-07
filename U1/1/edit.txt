@@ -1,0 +1,1 @@
+Ich habe bei der Berechnung der neuen Ziffer das Modulo 26 vergessen.
