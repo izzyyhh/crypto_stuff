@@ -1,0 +1,14 @@
+Aufgabe 1: 10/10
+- alles richtig
+- bisschen mit dem Aufschreiben aufpassen, das "mod t" am Schlüssel gehört in den Index
+
+Aufgabe 2: 8/10
+a) 2/4: Dec richtig, Korrektheit fehlt
+b) 6/6: Alles richtig
+
+Aufgabe 3:
+a) 2/2
+b) 6/8 gut, ein paar Zeichen werden jeweils bei dir verschluckt
+
+Aufgabe 4: 10/10
+- gut!
