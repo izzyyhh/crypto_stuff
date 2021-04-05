@@ -1,0 +1,15 @@
+Beobachtet habe Ich, dass der NIST Test für beide LCGs fehlschlägt. Es kommen bei allen Tests
+p-Werte nahe 0 oder 0 raus. Der RNGCryptoServiceProvider aber besteht jeden Test mit den Werten:
+
+Freq: 0.26355257562950674       Block: 0.2348653725096193       Runs: 0.2768345451718731
+
+Warum?
+Beim Frequenztest vermute ich, dass die zu kurze Periode bei einer Folgenlänge von 1000 die Gleichverteilung
+stört, da sich Werte nach einer gewissen Anzahl von Zahlen wiederholen.
+Beim Blocktest ist es wieder die Periode die für einen Fehlschlag sorgt, da es BlockSequenzen gibt, die
+nicht gleichverteilt sind. 
+Beim Runstest ist es die Vorhersehbarkeit der LCGs, die zum Fail vom Test führt. Die folgende Nummer ist
+nicht randomisiert, sondern lässt sich aus den vorherigen Zahlen herleiten.
+
+Der RNGCryptoServiceProvider scheint sehr gut zu sein, da er jeden Test besteht. Er erfüllt jede Bedingung
+und erreicht eine gute Gleichverteilung und somit einen guten Zufall.

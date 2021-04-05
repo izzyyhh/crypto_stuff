@@ -1,9 +1,0 @@
-Auffällig ist, dass sich bei der 2. Variante mit Modulo 524 sich die "Zufallsreihe" öfter wiederholt als bei der Variante mit 529.
-Die Periode ist viel kürzer als davor. Das ist schlecht, da weniger Zahlen aus dem möglichen Zahlenbereich verwendet werden.
-
-Das Verhalten lässt sich durch die Eigenschaft des Multiplikators(a) und Modulos(m).
-Diese haben in der 2. Variante gemeinsame Faktoren zum Beispiel 2. 24 % 2 = 0 und 524 % 2 = 0. Dadurch ist eine kürzere Periode wahrscheinlicher. 
-Daher ist die optimale Wahl für m eine Zahl die keinen/weniger gemeinsame/n Faktor/en mit a hat. Eine Zahl mit dem größtmöglichen KGV (kleinste gemeinsame Vielfache) wäre eine gute Wahl.
-(Das KGV in der 2.Variante ist 2 und daher sehr klein)
-
-Vermutlich können hier Primzahlen bessere Ergebnisse liefern.

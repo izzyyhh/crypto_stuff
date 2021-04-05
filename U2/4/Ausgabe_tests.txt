@@ -1,0 +1,36 @@
+Es folgt Aufgabe b (Tests):
+--------------------------------------
+LCGA mit Modulo 529
+FreqTest:
+There is evidence that sequence is NOT random
+BlockTest:
+There is evidence that sequence is NOT random
+RunsTest:
+There is evidence that sequence is NOT random
+p-Values:
+Freq: 0         Block: 0        Runs: 0
+--------------------------------------
+
+--------------------------------------
+LCGA mit Modulo 524
+FreqTest:
+There is evidence that sequence is NOT random
+BlockTest:
+There is evidence that sequence is NOT random
+RunsTest:
+There is evidence that sequence is NOT random
+p-Values:
+Freq: 0         Block: 0        Runs: 0
+--------------------------------------
+
+--------------------------------------
+RNGCryptoServiceProvider
+FreqTest:
+Sequence passes NIST frequency test for randomness
+BlockTest:
+Sequence passes NIST block test for randomness
+RunsTest:
+Sequence passes NIST runs test for randomness
+p-Values:
+Freq: 0.26355257562950674       Block: 0.2348653725096193       Runs: 0.2768345451718731
+--------------------------------------

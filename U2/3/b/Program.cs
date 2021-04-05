@@ -21,7 +21,7 @@ namespace b
                   Console.WriteLine("repeats"); 
                   counter++;
                 }
-                Console.WriteLine(series2[i]);  
+                Console.WriteLine(series[i]);  
             }
 
             Console.WriteLine();
