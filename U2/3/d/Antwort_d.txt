@@ -1,0 +1,49 @@
+PLOT)
+
+Auffällig ist, dass die Punkte einem linearen Schema folgen. Man erkennt deutlich parallele Linien.
+Von gutem Zufall kann man nicht wirklich sprechen, da die Punkte somit vorhersehbar sind. Es sind Funktionen 
+vom Typ f(x):=k*x + d. Die Geraden haben gleiches k, nur d wird größer.
+
+ATTACK ANHAND AUSGABEFOLGE)
+
+gesucht: X(i+1) = (a*X(0) + c) (mod m)
+gegeben: x0,x1,x2,x3,...
+---------------------------------------
+
+Zuert muss der Modulo m berechnet werden. Dazu wird folgende Sequenz benoetigt:
+
+T(n) = X(i+1) - X(i)
+
+daraus folgt:
+
+t0 = x1 - x0
+t1 = x2 - x1 = (x1*a + c) - (x0*a + c) = a*(x1 - x0) = a*x0 (mod m)
+t2 = x3 - x2 = (x2*a + c) - (x1*a + c) = a*(x2 - x1) = a*x1 (mod m)
+t3 = x4 - x3 = (x3*a + c) - (x2*a + c) = a*(x3 - x2) = a*x2 (mod m)
+
+durch dies kann man folgendes schreiben:
+t2*t0 - t1*t1 = (a*a*t0 * t0) - (a*t0 * a*t0) = 0 (mod m)
+
+Mit obiger Operation kann man sich Werte generieren die kongruent zu 0 sind. 
+Sind Werte kongruent zu 0, dann sind das Vielfache von m (gesuchter Wert).
+Danach wird der GGT (groesste gemeinsame Teiler) ermittelt und das ist mit hoher WSK der gesuchte Modulo m.
+
+Fuer den Multiplikator a braucht man zwei lineare Gleichungen:
+
+x2 - x1 = x1*a - x0*a  (mod m)
+x2 - x1 = a*(x1 - x0)  (mod m)
+
+a = (x2 - x1) / (x1 - x0) (mod m)
+
+hierbei ist der inverse Modulo notwendig
+
+Fuer c braucht man dann nur mehr eine simple Gleichung umformen:
+
+x1 = x0*a + c (mod m)
+
+c = x1 - x0*a (mod m)
+
+Der LCG wird hiermit geknackt.
+Leider bin ich bei den Berechnungen gescheitert, mir ist unklar, wie ich den inversen Modulo verwenden muss. Meine mathematische Faehigkeitn haben traurigerweise nicht ausgereicht.
+
+Quelle: https://tailcall.net/blog/cracking-randomness-lcgs/ 

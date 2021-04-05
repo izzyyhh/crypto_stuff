@@ -1,0 +1,5 @@
+In welchem Wertebereich kann Xi maximal liegen?
+
+Xi liegt in I = [0, m[
+
+m ist exklusiv, wegen Modulo m (wird zu 0)
