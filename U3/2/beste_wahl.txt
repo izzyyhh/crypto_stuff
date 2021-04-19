@@ -1,0 +1,12 @@
+Welcher Modus ist Ihrer Meinung nach die beste Wahl? Warum?
+
+CTR-Mode
+--------
+
+Ich behaupte, dass der CTR-Mode die beste Wahl ist. Sie ist vor allem eine bessere Version vom OFB,
+der OFB hat anscheinend Probleme mit zu kurzen Stream-Zyklen bei schlechter Konfiguration. Das ist beim CTR
+nicht der Fall. Des Weiteren benötigt der CTR keine Pseudozufallspermutation, was ihn für mich sympatischer
+als den CBC-Mode macht. Denn ich kann mir das Suchen einer sPRP ersparen, da ich nur eine gute PRF benötige.
+Zu guter Letzt möchte ich die Performance erwähnen. Der CTR-Mode lässt sich gut auf Multiprozessor-Systemen mit
+Threading implementieren, da er von einer guten Parallelisierbarkeit geprägt ist (Begründung siehe Tabelle).
+Das heißt, dass der Mode sehr schnell ist.
