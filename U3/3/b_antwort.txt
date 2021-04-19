@@ -1,0 +1,23 @@
+B) Passen die Daten? TL DR: Ja.
+---------------------
+Ausgabe vom Programm:
+
+for n: 10.000, average: 121.25, expected: 141.4213562373095
+for n: 20.000, average: 185.35, expected: 200
+for n: 100.000, average: 426.44, expected: 447.21359549995793
+for n: 500.000, average: 910.3, expected: 1000
+for n: 990.000, average: 1411.82, expected: 1407.1247279470288
+for n: 1.000.000, average: 1273.48, expected: 1414.213562373095
+
+Beobachtung:
+-------------
+Für jedes N, das in dem Programm läuft wird eine Zeile mit den Stats geprintet. Die Variable "expected"
+berechnet sich mit Wurzel(2*n) und ist somit der erwartete Wert, also wie oft die Funktion bis zur
+Kollision ausgewertet werden muss. Das Geburtstagsparadoxon landet mit der Vorhersage zwar keine Punktlandung,
+aber liefert sehr gute Werte (wie man der Ausgabe entnehmen kann). Ganz besonders gut gelungen ist es
+bei n=990.000!
+-> Geburtstagsparadoxon: ca. 1407, Aufgetreten: ca. 1412
+
+Plot Bemerkung:
+--------------
+Ähnelt dem Graphen der Wurzel-Funktion f: f(x) = sqrt(2*x)
