@@ -1,4 +1,4 @@
-leider bin ich an diesem beispiel gescheitert, aber vielleicht kriege ich dennoch punkte, wenn ich meinen weg erklaere
+leider bin ich an diesem beispiel gescheitert, aber vielleicht kriege ich dennoch punkte, wenn ich meinen weg erklaere  
 den generator zu brute forcen hat bei mir nicht funktioniert, da dies zu lange dauerte und bin deswegen gescheitert
 
 # idee
