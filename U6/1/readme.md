@@ -3,7 +3,7 @@ Die Beantwortung der Fragen finden Sie im Code als WriteLines und Kommentaren.
 Der Output vom Code und Comments: 
 
 
-// 1a)  
+## 1a)  
 // Verschlüsseln Sie die gleiche Nachricht Ihrer Wahl bei gleichem Schlüssel zweimal mit RSA OAEP.  
 Verschlüsselung mit gleichem Key.  
   
@@ -14,13 +14,13 @@ Verschlüsselung mit gleichem Key.
 Die Verschlüsselungen sind komplett verschieden, obwohl der Key gleich ist.  
 Das liegt zum Einen am Padding und zum Anderen an die Hashfunktionen, die verwendet werden.  
 
-// 1b)  
+## 1b)  
 // Entschlüsseln Sie die beiden Ciphertexte wieder und prüfen Sie, ob Sie die ursprüngliche Nachricht erhalten.  
 Decrypted 1: Data to Encrypt  
 Decrypted 2: Data to Encrypt  
 Es kommt die ursprüngliche Nachricht raus: True
   
-//1c)  
+## 1c)  
 //  Modifizieren Sie einen der Ciphertexte und entschlüsseln Sie ihn.  
   
 Das erste Byte wird im Ciphertext verändert...
