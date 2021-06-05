@@ -1,12 +1,12 @@
 # RSA Signaturen, Hash and Sign
-a:  
+## a:  
 Bei gleicher Nachricht ist beim wiederholten Signieren die Signatur gleich. Das Signieren ist deterministisch. Das ist so, weil die Hashfunktion SHA256 und darauffolgende Berechnungen deterministisch sind.  
 SHA256 gibt bei gleicher Nachricht den gleichen Hash zurueck. Vor allem ist die Laenge vom Hash immer gleich. Danach wird auf den Hashwert mit dem Exponenent d aus dem Private Key potenziert und mod N genommen. Die Berechnungen sind deterministisch. Bei gleicher Eingabe, gleichen Parametern ist die Ausgabe gleich.  
   
-b:  
+## b:  
 Die erhalten Signatur ist gueltig. Das sieht man im Output vom Program.  
   
-c:  
+## c:  
 Wenn die Nachricht modifiziert wird, ist die Signatur nicht mehr gueltig. Das sieht man auch im Programoutput.  
   
 ## Programoutput
