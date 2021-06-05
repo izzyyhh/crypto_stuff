@@ -16,8 +16,8 @@ Das liegt zum Einen am Padding und zum Anderen an die Hashfunktionen, die verwen
 
 // 1b)  
 // Entschlüsseln Sie die beiden Ciphertexte wieder und prüfen Sie, ob Sie die ursprüngliche Nachricht erhalten.  
-Decrypted 1: Data to Encrypt
-Decrypted 2: Data to Encrypt
+Decrypted 1: Data to Encrypt  
+Decrypted 2: Data to Encrypt  
 Es kommt die ursprüngliche Nachricht raus: True
   
 //1c)  
@@ -26,9 +26,9 @@ Es kommt die ursprüngliche Nachricht raus: True
 Das erste Byte wird im Ciphertext verändert...
 Nun wird die modifizierte Nachricht entschlüsselt...  
   
-// Es wird eine Exception geworfen. Dazu gibt es eine Erklärung. Beim OAEP wird ein Padding
-// erzeugt und durch diesen hat man einen Integritätsschutz. Es werden Nullen rangehängt. Und
-// wenn beim entschlüsseln, die Nullen an der Nachricht nicht mehr existieren oder Anzahl ander ist,
+// Es wird eine Exception geworfen. Dazu gibt es eine Erklärung. Beim OAEP wird ein Padding  
+// erzeugt und durch diesen hat man einen Integritätsschutz. Es werden Nullen rangehängt. Und  
+// wenn beim entschlüsseln, die Nullen an der Nachricht nicht mehr existieren oder Anzahl ander ist,  
 // wird ein Fehler geworfen. 
 
 System.Security.Cryptography.CryptographicException: Cryptography_OAEPDecoding
