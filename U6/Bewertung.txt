@@ -1,0 +1,6 @@
+1) 9/10
+Die Hashfunktion als Grund würde ich nicht unbedingt sehen, die Nachrichten sind ja gleich, dann sind es auch Hashwerte.
+Unterschiedlich sind die Ciphertexte durch die Randomisierung. (Das Paddingist auch das gleiche, bei der gleichen Nachricht.)
+
+2) 10/10
+schön :-)
