@@ -1,0 +1,13 @@
+1) gut
+10/10
+
+2) 4/10 Gute Idee, die Idee aufzuschreiben!
+  Vom Vorgehen genau richtig, du hast verstanden, was du zu tun hast.
+  Eventuell würdest du praktische Prbleme kriegen, wenn du für 12 Mio Werte in einer Tabelle den dlog vorhalten würdest.
+  Könntest beim Angriff auf den öffenlichen Wert dann aber auch natülich auch Exponenten brute forcen.
+
+
+3) auch gut^^
+10/10. Du kannst hier bei den Ergebnissen, wie z.B. 418, auch überall mod 23 rechnen.
+
+4) 10/10
