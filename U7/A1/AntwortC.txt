@@ -1,0 +1,6 @@
+Die Veränderung eines einzigen bit führt dazu, dass der Ciphertext nichtmehr entschlüsselt werden kann.
+Das liegt daran, dass Aes dem Design eines  Substitutions-Permutations-Netzwerkes folgt und deshalb kleine
+Änderungen die Ausgabe komplett verändern. Das liegt daran, dass ein  Substitutions-Permutations-Netzwerk
+gute Diffusion und Konfusion. D.h. Ändert sich ein bit des Ciphertexts, dann ergibt sich innerhalb von zwei Runden
+bei AES (Substitution...) eine Änderung in jedem Byte der Ausgabe.
+Bei AES 128 gibt es 9 Runden, bei 192 11 Runden und bei 256 13 Runden. Demetsprechend ändert sich der Text komplett.

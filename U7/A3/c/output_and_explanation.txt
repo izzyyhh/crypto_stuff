@@ -1,0 +1,16 @@
+n = 43971
+n = 77281
+n = 15093
+n = 62151
+n = 61552
+n = 25729
+n = 30544
+n = 76714
+n = 28187
+n = 53980
+average n = 47520.2, 10 runs
+
+Bei 10 Durchläufe tritt im Schnitt nach ca. 47500 Iterationen eine Kollision auf.
+
+Das Geburtagsparadoxon: Wurzel(2hoch31) = ca. 46340
+Sehr guter Richtwert.

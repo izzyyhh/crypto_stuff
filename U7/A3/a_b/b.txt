@@ -1,0 +1,3 @@
+Bereits kleine Änderungen beim Input führen zu einer komplett anderen Ausgabe
+der Hashfunktion. Wir haben uns zuerst für 'hello' und dann für 'hallo' den Hashwert angesehen
+und festgellt, dass diese völlig unterschiedlich aussehen, obwohl der Ausgangswert ähnlich ist. 

@@ -1,0 +1,15 @@
+Verification, 2 gleiche Nachrichten haben gleichen Tag:
+True
+Verification, veränderte Nachricht:
+False
+Verification, veränderter Tag:
+False
+
+Verification fehgeschlagen => Verification = False
+
+b)
+nein modifizierte Nachricht bleibt nicht gültig, weil der Tag nun anders ist
+
+c)
+nein der Tag bleibt für die Nachricht nicht gültig, weil der berechnete Tag für die Nachricht
+ander aussieht, als der modifizierte

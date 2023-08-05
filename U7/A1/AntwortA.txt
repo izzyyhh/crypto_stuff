@@ -1,0 +1,11 @@
+Der ciphertext ist immer 1 bis 16 Zeichen länger als der original.
+Ist der originaltext 15 zeichen lang -> ciphertext 16 zeichen
+original 16 -> cipher 32
+original 26 -> cipher 32
+
+Der ciphertext hat immer eine Länge die ein Vielfaches von 16 ist.
+Das liegt daran, dass der Plaintext bei aes in 128 bit große blöcke unterteilt wird.
+Diese blöcke bestehen dementsprechend aus 128/8 = 16 bytes.
+Ist der Plaintext somit beispielsweise 26 bytes lang, dann kommen die ersten 16 bytes in
+den ersten Block. und die restlichen 10 in den 2ten Block. da dieser zweite Block aber mit einem
+Key der Länge 16 geXORt wird, wird der 2te Block auch 16 byte Lang.
